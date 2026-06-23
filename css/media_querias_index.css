@@ -1,0 +1,122 @@
+@media screen and (max-width: 964px){
+    .container{
+        width: 95%;
+        max-width: 900px;
+    }
+
+    #seccion-segunda{
+        display: -webkit-box;
+    }
+
+    #seccion-segunda img{
+        width: 500px;
+    }
+
+    #seccion-tercera img{
+        width: 500px;
+    }
+
+    article > section:nth-child(3){
+        width: 960px;
+    }
+
+    #seccion-cuarta{
+        width: 100%;
+        margin-left: 28px;
+    }
+
+    article > section:nth-child(5){
+        width: 960px;
+    }
+
+    footer{
+        width: 960px;
+    }
+
+    #nav-bar{
+        width: 963px;
+    }
+
+    article > section:nth-child(1){
+        width: 963px;
+    }
+}
+
+@media screen and (max-width: 751px){
+    .container{
+        width: 95%;
+        max-width: 750px;
+    }
+
+    #seccion-segunda-texto{
+        width: 60%;
+    }
+
+    #seccion-segunda img{
+        width: 490px;
+    }
+
+    #main-nav li a{
+        padding: 17px 0.5em;
+    }
+
+    #main-nav li:last-child{
+        padding: 17px 0.5em;
+    }
+
+    .columnas{
+        margin: 0 2em;
+    }
+
+    .columnas p{
+        width: 155px;
+    }
+
+    article > section:nth-child(4){
+        margin-left: 20px;
+    }
+
+    article > section:nth-child(4) > h2, article > section:nth-child(4) > p {
+        margin-left: 200px;
+    }
+
+    #seccion-tercera img{
+        margin-left: -70px;
+    }
+}
+@media screen and (max-width: 651px){
+
+    article > section:nth-child(4) > h2, article > section:nth-child(4) > p{
+        margin-left: 350px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #seccion-segunda{
+        margin-left: 60px;
+    }
+
+    article > section:nth-child(4) > h2, article > section:nth-child(4) > p{
+        margin-left: 212px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    #seccion-segunda{
+        margin-left: 93px;
+    }
+
+    #seccion-segunda img{
+        width: 440px;
+    }
+
+    #seccion-segunda-texto{
+        width: 100%;
+        padding: 0 4px;
+    }
+
+    article > section:nth-child(4) > h2, article > section:nth-child(4) > p{
+        margin-left: 282px;
+    }
+}
