@@ -1,0 +1,77 @@
+@media screen and (max-width: 891px){
+    #main-nav li a{
+        padding: 25px 15px;
+    }
+
+    .row img{
+        height: 312px;
+        width: 312px;
+    }
+
+    .row div p{
+        font-size: 12px;
+    }
+
+    aside > h3{
+        width: 260px;
+    }
+
+    aside ul li > a{
+        font-size: 17px;
+    }
+
+    #suEmail{
+        width: 260px;
+    }
+
+    #boletin .btn{
+        margin-left: 5px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 861px){
+    main > header, #nav-bar, footer{
+        width: 860px;
+    }
+
+    #main-nav li a {
+        padding: 25px 10px;
+    }
+
+    .row div p{
+        font-size: 12px;
+    }
+
+    .row div h2{
+        font-size: 19px;
+    }
+
+    .row img{
+        height: 300px;
+    }
+
+    aside > h3{
+        width: 210px;
+    }
+
+    aside ul li > a{
+        font-size: 15px;
+    }
+
+    #suEmail{
+        width: 210px;
+    }
+
+    #boletin .btn{
+        margin-left: 0;
+        width: 210px;
+    }
+    
+    #social{
+        padding-right: 15px;
+    }
+
+    footer a img{
+        margin-left: 33px;
+    }
+}

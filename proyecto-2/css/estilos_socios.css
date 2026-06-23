@@ -1,0 +1,83 @@
+main > header{
+    background-color: #ffa600;
+    height: 115px;
+    margin-bottom: 50px;
+}
+
+h1{
+    padding: 34px 0;
+    color: #fff;
+}
+
+article{
+    display: flex;
+}
+
+.row{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.row div{
+    margin-left: 15px;
+    text-align: justify;
+}
+
+.row img{
+    flex-basis: 50%;
+    width: 500px;
+}
+
+/*Barra lateral*/
+
+aside{
+    margin-left: 12px;
+}
+
+aside h3{
+    background-color: #f3f1fe;
+    padding: 7px 0;
+    margin-bottom: 20px;
+}
+
+aside ul li > a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+
+ul > li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+
+aside ul li > a:hover{
+    color: #0b1245;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+ul{
+    margin-bottom: 30px;
+}
+
+#social-media{
+    font-size: 30px;
+    padding: 5px 0;
+}
+
+.fab{
+    color: #0b1245;
+    padding: 0 12px;
+    padding-bottom: 25px;
+}
+
+#suEmail{
+    width: 280px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+
+#boletin .btn{
+    margin-left: 12px;
+}   
