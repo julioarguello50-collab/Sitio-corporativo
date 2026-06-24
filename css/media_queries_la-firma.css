@@ -1,0 +1,97 @@
+@media screen and (max-width: 890px){
+    h2{
+        text-align: center;
+    }
+
+    #main-nav li a{
+        padding: 25px 0.8em;
+    }
+
+    #social .fab{
+        margin-left: 0;
+    }
+
+    #boletin p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 699px) and (max-width: 875px){
+    #main-nav li a{
+        margin-top: 13px;
+        padding: 19px 5.7px;
+        font-size: 15px;
+        text-align: left;
+    }
+
+    img{
+        width: 160px;
+        margin-top: 15px;
+        margin-left: -10px;
+    }
+
+    #main-nav li:last-child{
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 579px) and (max-width: 698px){
+    h1{
+        text-align: center;
+    }
+    #main-nav li a{
+        padding: 25px 12px;
+        font-size: 15px;
+    }
+
+    img{
+        display: block;
+        width: 120px;
+        margin-top: 15px;
+    }
+
+    article{
+        display: flow;
+    }
+
+    aside > h3{
+        width: 100%;
+        text-align: center;
+    }
+
+    aside ul > li{
+        text-align: center;
+    }
+
+    #social-media{
+        text-align: center;
+    }
+
+    form{
+        text-align: center;
+        display: grid;
+    }
+
+    #suEmail{
+        margin-left: 112px;
+    }
+
+    #boletin .btn{
+        margin-left: 125px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    form{
+        text-align: center;
+    }
+
+    #social{
+        margin-left: -35px;
+    }
+
+    img{
+        margin-top: 12px;
+    }
+}

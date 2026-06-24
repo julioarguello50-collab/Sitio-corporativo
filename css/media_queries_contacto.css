@@ -1,0 +1,153 @@
+@media screen and (min-width: 699px) and (max-width: 890px){
+    #main-nav li  a{
+        padding: 28px 8px;
+        font-size: 15px;
+    }
+
+    img{
+        width: 150px;
+        margin-top: 13px;
+        margin-left: -10px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .contenedor-datos > input[type="text"]{
+        width: 300px;
+    }
+
+    aside > h3{
+        width: 320px;
+        text-align: center;
+    }
+
+    #social-media{
+        text-align: center;
+    }
+
+    #boletin .btn{
+        margin-left: 38px;
+    }
+
+    footer a img{
+        margin-left: 35px;
+    }
+}
+
+@media screen and (min-width: 499px) and (max-width: 699px){
+    main > header{
+        width: 812px;
+    }
+
+    #nav-bar{
+        width: 812px;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    #main-nav li a{
+        padding: 26px 15px;
+        font-size: 18px;
+        margin-top: 6px;
+    }
+
+    img{
+        width: 150px;
+        margin-top: 15px;
+        margin-left: -20px;
+    }
+
+    #main-nav li:last-child{
+        padding: 25px 5px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+
+    aside{
+        width: 180px;
+    }
+
+    aside > h3{
+        width: 310px;
+        text-align: center;
+    }
+
+    footer{
+        width: 812px;
+    }
+
+    .contenedor-datos > input[type="email"], .contenedor-datos > input[type="text"]{
+        margin-bottom: 0;
+    }
+
+    #suEmail{
+        width: 280px;
+        margin-top: 10px;
+    }
+
+    #boletin .btn{
+        margin-left: 35px;
+    }
+
+    footer a img{
+        margin-left: 32px;
+    }
+
+    aside ul > li{
+        width: 300px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (min-width: 349px) and (max-width: 498px){
+    main > header, #nav-bar, footer{
+        width: 900px;
+    }
+
+    #main-nav li a{
+        padding: 25px 7px;
+        font-size: 25px;
+    }
+
+    #main-nav li:last-child{
+        padding: 25px 5px;
+        font-size: 22px;
+    }
+
+    img{
+        width: 130px;
+        margin-top: 19px;
+    }
+
+    aside{
+        width: 300px;
+    }
+
+    aside > h3{
+        width: 280px;
+        text-align: center;
+    }
+
+    .contenedor-datos > input[type="text"], .contenedor-datos > input[type="email"]{
+        margin-top: 15px;
+        width: 400px;
+    }
+
+    #social-media{
+        width: 600px;
+        padding: 0 55px;
+    }
+
+    #suEmail{
+        width: 280px;
+        margin-left: 10px;
+    }
+
+    #boletin .btn{
+        margin-left: 39px;
+    }
+}

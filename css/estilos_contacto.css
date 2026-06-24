@@ -1,0 +1,61 @@
+article{
+    display: flex;
+}
+
+.contenedor-datos > label{
+    width: 100%;
+    margin-bottom: 4px;
+    font-weight: bold;
+    display: block;
+}
+
+.contenedor-datos > input[type="text"]{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 4px;
+    padding: 12px 0;
+}
+
+.contenedor-datos > #suEmail{
+    width: 100%;
+    font-weight: bold;
+}
+
+textarea{
+    width: 100%;
+}
+aside{
+    margin-left: 20px;
+}
+span{
+    color: #ff0000;
+}
+
+.btn{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+aside > h3{
+    width: 400px;
+}
+
+#social-media{
+    margin-bottom: 12px;
+}
+
+#suEmail{
+    display: block;
+    width: 81%;
+}
+
+#boletin .btn{
+    width: 200px;
+    margin-left: 0;
+}
+
+#boletin > p {
+    font-size: 15px;
+    text-align: justify;
+    width: 340px;
+}
